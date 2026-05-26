@@ -33,13 +33,19 @@ pip install pandas
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/OSRS_Quest_Compass.git
+git clone https://github.com/Justin-Kuchmy/OSRS_Quest_Compass.git
 cd OSRS_Quest_Compass
 ```
 
 ### 2. Update your spreadsheet
 
-Fill in your current skill levels and mark which quests you've completed in the Excel file.
+The Excel file has two pages to fill out:
+
+- **PersonalStats** — enter your current level for each skill
+- **Main sheet** — mark column C with your completed quests
+
+> **Note:** API-based stat fetching is planned for a future update, so for now stats must be entered manually on the PersonalStats page.
+
 
 ### 3. Parse your data
 
